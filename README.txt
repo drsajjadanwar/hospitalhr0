@@ -1,5 +1,9 @@
 An open-source project to promote transparent hiring in the healthcare sector.
 
+Demo: https://hospitalhr0.paperbus.org
+
+Screenshot: https://hospitalhr0.paperbus.org/hr1.png
+
 [Public Visitors & Candidates]
                   │
                   ▼
