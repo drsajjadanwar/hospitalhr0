@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('/fonts/MyriadPro-Regular.ttf') format('truetype');
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Myriad Pro', sans-serif;
+  color: #ffffff;
+}
+
+body {
+  background-image: url('/media/starry_sky.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.transparent-layer {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav .brand-logo img {
+  height: 80px;
+  margin-top: 5px;
+}
+
+/* Explicit fix for sidebar background issue */
+.sidenav {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.sidenav li > a {
+  color: #ffffff !important;
+}
+
+.sidenav-overlay {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+
